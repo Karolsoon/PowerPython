@@ -1,4 +1,4 @@
-class Generator:
+class arrayGenerator:
 
     def __init__(self, x=0, y=0, array_x_on_y=None):
         if array_x_on_y is None:
@@ -16,15 +16,16 @@ class Generator:
         pass
 
 
-class Array_filler(Generator):
+class arrayFiller(arrayGenerator):
 
     super().__init__()
 
     def generate_numbers(self):
-        bla = 1
+        pass
 
     def generate_string(self):
         pass
 
     def generate_bullshit(self):
         pass
+

@@ -26,6 +26,7 @@ class arrayFiller(arrayGenerator):
     def fillArrayWithString(self):
         pass
 
+
     def fillArrayWithBullshit(self):
         pass
 

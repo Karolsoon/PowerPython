@@ -7,25 +7,25 @@ class arrayGenerator:
         self.y = y
         self.array_x_on_y = array_x_on_y
 
-    def generate_array(self, x, y):
+    def generateArray(self, x, y):
         self.array_x_on_y = [y
                              for y in x
                              for x in x]
 
-    def snitches(self):
+    def generateSnitches(self):
         pass
 
 
 class arrayFiller(arrayGenerator):
 
-    super().__init__()
+    def fillArrayWithNumbers(self, x, y):
+        super().__init__()
+        array_x_on_y = [[y for y in range(y)] for x in range(x)]
+        return  array_x_on_y
 
-    def generate_numbers(self):
+    def fillArrayWithString(self):
         pass
 
-    def generate_string(self):
-        pass
-
-    def generate_bullshit(self):
+    def fillArrayWithBullshit(self):
         pass
 
